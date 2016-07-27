@@ -4,6 +4,16 @@
 	<meta charset="UTF-8">
 	<title>Website header tables 2.4</title>
 	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#table{
+			display: flex;
+		}
+		#logo{
+			margin-left:40%;
+		}
 		a:link {
 		    text-decoration: none;
 		    color: #869eb6;
@@ -23,22 +33,25 @@
 		    text-decoration: none;
 		    color: #fff;
 		}
+		#profile_logo{
+			margin-top: 5px;
+		}
 	</style>
 </head>
 <body>
 	<nav style="background-color: #214464;">
-		<table width="100%" cellspacing="10px" border="1">
+		<table id="table" width="100%" cellspacing="1" border="1">
 			<thead>
 			<tr>
-				<th align="left" width="1000px"><img src="software-university-logo.png"/></th>
+				<th align="center" width="60%"><img id="logo" src="software-university-logo.png"/></th>
 				<th align="center"><a href="https://softuni.bg/">SOFTUNI</a></th>
 				<th><a href="https://softuni.bg/">TRAININGS</a></th>
 				<th><a href="https://softuni.bg/companies">JOBS</a></th>
 				<th><a href="https://softuni.bg/partners">PARTNERS</a></th>
 				<th><a href="https://softuni.bg/forum">FORUM</a></th>
 				<th><a href="https://softuni.bg/contacts">CONTACT</a></th>
-				<th>search icon</th>
-				<th>profile icon</th>
+				<th>&#128269</th>
+				<th><img id="profile_logo" src="profile.png" width="20px" height="20px"></th>
 			</tr>
 			</thead>
 		</table>

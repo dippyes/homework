@@ -8,12 +8,14 @@
 			margin: 0;
 			padding: 0;
 		}
-		#table{
+		table{
 			display: flex;
+			border-spacing: 30px 0px;
 		}
-		#logo{
-			margin-left:40%;
+		table>th{
+			
 		}
+
 		a:link {
 		    text-decoration: none;
 		    color: #869eb6;
@@ -40,18 +42,18 @@
 </head>
 <body>
 	<nav style="background-color: #214464;">
-		<table id="table" width="100%" cellspacing="1" border="1">
+		<table width="100%" cellspacing="1" border="0">
 			<thead>
 			<tr>
-				<th align="center" width="60%"><img id="logo" src="software-university-logo.png"/></th>
-				<th align="center"><a href="https://softuni.bg/">SOFTUNI</a></th>
+				<th style="padding-top:5px;" align="left" width="80%"><img id="logo" src="software-university-logo.png"/></th>
+				<th align="center"><a href="https://softuni.bg/">SOFTUN</a></th>
 				<th><a href="https://softuni.bg/">TRAININGS</a></th>
 				<th><a href="https://softuni.bg/companies">JOBS</a></th>
 				<th><a href="https://softuni.bg/partners">PARTNERS</a></th>
 				<th><a href="https://softuni.bg/forum">FORUM</a></th>
 				<th><a href="https://softuni.bg/contacts">CONTACT</a></th>
 				<th>&#128269</th>
-				<th><img id="profile_logo" src="profile.png" width="20px" height="20px"></th>
+				<th id="last"><img id="profile_logo" src="profile.png" width="20px" height="20px"></th>
 			</tr>
 			</thead>
 		</table>
